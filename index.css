@@ -1,0 +1,246 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing:border-box;
+}
+
+header{
+    height:250px;
+    text-align: center;
+    line-height: 200px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 80px;
+    background-color: #bcdddb;
+}
+
+.pos{
+
+    position:sticky;
+    top: 0;
+}
+.jcont{
+   float: left;
+}
+.scontainer
+{
+    
+    margin-left: 0%;
+    margin-right: 0%;
+    width: 100%;
+    padding-right: 10px;
+   float:left;
+    /* border:solid black;
+    margin:2px;*/
+}
+.ascontainer{
+  float: right;
+  border:solid black;
+  padding:5px;
+  margin: 2px;
+  margin-top: 4em;
+  width: 29%;
+  height: 400px;
+  position: sticky;
+  top: 0;
+}
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+a{
+  color: whitesmoke;
+  text-decoration:none;
+}
+
+header{
+  height:250px;
+  text-align: center;
+  line-height: 80px; 
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-size: 80px;
+  background-color: #bcdddb;
+  /* display: flex; */
+  /* background-image:url(COVER.PNG);  */
+}
+
+
+.Fcontainer{
+  display: flex;
+ 
+}
+.fcontainer{
+display: flex;
+padding-left: 80px;
+}
+
+.f2container{
+  display: flex;
+  padding-left: 50px;
+}
+
+.mh{
+  width: 100px;
+  height: 100px;
+ top: 70px; 
+  position: relative;
+ /* float: left; */
+  margin: 2px;
+/* display: flex; */
+
+  border: solid black;
+  background:#ffffff;
+  
+}
+
+.row{
+   padding: 10px;
+   /* width: 100px; */
+   /* height: 100px; */
+   
+}
+
+.col-sm-4{
+  padding:10px;
+  /* border: rgb(216, 222, 220); */
+  /* border-color:rgb(216, 222, 220) ;
+  border: solid rgb(216, 222, 220);
+  border-width:1px; */
+  /* margin-left: 10px; */
+  /* margin-right: 10px; */
+}
+
+@media screen and (max-width: 600px) {
+
+  header{
+    height:250px;
+    text-align: center;
+    line-height: 200px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 40px;
+    background-color: #bcdddb;
+}
+  .Fcontainer{
+    display: flex;
+   
+  }
+  .fcontainer{
+  display: none;
+  padding-left: 80px;
+  }
+  
+  .f2container{
+    display:none;
+    padding-left: 50px;
+  }
+  
+  .mh{
+    width: 50px;
+    height: 50px;
+   top: 70px; 
+    position: relative;
+   /* float: left; */
+    margin: 10px;
+  /* display: flex; */
+  
+     border: solid black;
+    background:#ffffff;  
+
+   
+    
+  }
+}
